@@ -2,7 +2,7 @@ version: "3"
 services:
   tomcat:
     build: .
-    image: base_web_tomcat_8u121
+    image: ctfhub/base_web_tomcat_8u121
     ports:
       - "8080:80"
       - "8081:8080"
